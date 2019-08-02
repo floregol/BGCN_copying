@@ -12,7 +12,6 @@ from sklearn.metrics import adjusted_rand_score
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import log_loss
 import argparse
-from bgcn.utils import edges_non_edges_index
 from bgcn.data_partition import data_partition_random, data_partition_fixed
 import tensorflow as tf
 import time
